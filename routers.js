@@ -66,4 +66,13 @@ router.delete("/users/:id", (req, res) => {
   }
 });
 
+// router.patch('/users/:id', (req, res) => {
+//     const id = req.params.id
+    
+// })
+
 module.exports = router;
+
+// const barang = 'nama'
+// const barang1 = barang.split('')
+// console.log(barang1)
